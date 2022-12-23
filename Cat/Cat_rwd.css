@@ -121,7 +121,7 @@
 
     .menu_bg {
         background-size: cover;
-        background: url(/Menu/Image/bgmenu.jpg);
+        background: url(Menu/Image/bgmenu.jpg);
     }
 
     #menu_link_content {
@@ -216,7 +216,7 @@
     }
 
     .menu_bg {
-        background: url(/Menu/Image/bgmenu.jpg);
+        background: url(Menu/Image/bgmenu.jpg);
     }
 
     #menu_link_content {
