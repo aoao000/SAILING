@@ -6,7 +6,7 @@
     .menu_bg {
         width: 100vw;
         left: -140vw;
-        background: url(/Menu/Image/bgmenu.jpg);
+        background: url('Menu/Image/bgmenu.jpg');
     }
     .link_row {
         flex: 0.25;
