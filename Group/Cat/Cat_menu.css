@@ -2,7 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-image: url('/Menu/Image/bg.jpg');
+    background-image: url('../Menu/Image/bg.jpg');
     background-attachment: fixed;
     background-position:left top;
     background-repeat: no-repeat;
