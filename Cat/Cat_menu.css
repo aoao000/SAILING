@@ -488,7 +488,9 @@ body {
     color: rgb(255, 255, 255);
 }
 .info .promotional_video{
-    height: 60vh;
+    width:80wh;
+    height:498px;
+    padding: 0 200px 0 200px;
 }
 
 .info .content3 img{
