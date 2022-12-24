@@ -6,7 +6,7 @@
     .menu_bg {
         width: 100vw;
         left: -140vw;
-        background: url('Menu/Image/bgmenu.jpg');
+        background: url('https://raw.githubusercontent.com/aoao000/SAILING/main/Menu/Image/bgmenu.jpg');
     }
     .link_row {
         flex: 0.25;
@@ -121,7 +121,7 @@
 
     .menu_bg {
         background-size: cover;
-        background: url(Menu/Image/bgmenu.jpg);
+        background: url(https://raw.githubusercontent.com/aoao000/SAILING/main/Menu/Image/bgmenu.jpg);
     }
 
     #menu_link_content {
@@ -216,7 +216,7 @@
     }
 
     .menu_bg {
-        background: url(Menu/Image/bgmenu.jpg);
+        background: url(https://raw.githubusercontent.com/aoao000/SAILING/main/Menu/Image/bgmenu.jpg);
     }
 
     #menu_link_content {
