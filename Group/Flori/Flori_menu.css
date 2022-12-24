@@ -2,7 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-image: url('/Menu/Image/bg.jpg');
+    background-image: url('https://raw.githubusercontent.com/aoao000/SAILING/main/Menu/Image/bg.jpg');
     background-attachment: fixed;
     background-position:left top;
     background-repeat: no-repeat;
@@ -102,7 +102,7 @@ body {
 
 .menu_bg {
     position: fixed;
-    background-image: url("/Menu/Image/bgmenu.jpg");
+    background-image: url("https://raw.githubusercontent.com/aoao000/SAILING/main/Menu/Image/bgmenu.jpg");
     background-size: cover;
     width: 120vw;
     height: 100vh;
@@ -423,7 +423,7 @@ body {
 .big_card .Top_info .group_name{
     position: relative;
     top:30px;
-    left: 300px;
+    left: 160px;
     padding: 20px;
     font-size: 3em;
     font-weight: 400;
@@ -476,7 +476,6 @@ body {
     height: auto;
     padding: 10px;
     margin: 0px 0px 60px 0px;
-    border: #367570 solid 1px;
 }
 .info .promotional_video_title{
     position: relative;
@@ -489,7 +488,9 @@ body {
     color: rgb(255, 255, 255);
 }
 .info .promotional_video{
-    height: 60vh;
+    width:80wh;
+    height:498px;
+    padding: 0 200px 0 200px;
 }
 
 .info .content3 img{
