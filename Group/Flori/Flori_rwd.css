@@ -6,7 +6,7 @@
     .menu_bg {
         width: 100vw;
         left: -140vw;
-        background: url(/Menu/Image/bgmenu.jpg);
+        background: url(https://raw.githubusercontent.com/aoao000/SAILING/main/Menu/Image/bg.jpg);
     }
     .link_row {
         flex: 0.25;
@@ -102,6 +102,10 @@
         margin: 10px 0 0 0;
         font-size: 9px;
     }
+    .info .promotional_video{
+        height:300px;
+        padding: 0 50px 0 50px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
@@ -121,7 +125,7 @@
 
     .menu_bg {
         background-size: cover;
-        background: url(/Menu/Image/bgmenu.jpg);
+        background: url(https://raw.githubusercontent.com/aoao000/SAILING/main/Menu/Image/bg.jpg);
     }
 
     #menu_link_content {
@@ -199,6 +203,11 @@
         position: relative;
         top:80px;
     }
+
+    .info .promotional_video{
+        height:500px;
+        padding: 0 50px 0 50px;
+    }
 }
 
 @media only screen and (min-width: 980px) and (max-width: 1100px) {
@@ -216,7 +225,7 @@
     }
 
     .menu_bg {
-        background: url(/Menu/Image/bgmenu.jpg);
+        background: url(https://raw.githubusercontent.com/aoao000/SAILING/main/Menu/Image/bg.jpg);
     }
 
     #menu_link_content {
@@ -260,72 +269,3 @@
         margin-top: 0;
     }
 }
-
-/* @media screen and (min-width: 500px) and (max-width: 800px){
-    .s112{
-        font-size:3em;
-    }
-    .more_info .member_info img{
-        width: 100%;
-        border-radius: 10px;
-    }
-    .more_info .member_info .member .work_position{
-        font-size: 2px;
-    }
-} */
-
-/* @media screen and (min-width: 768px) and (max-width: 1000px){
-    .info {
-        width: auto;
-    }
-    .big_card .Top_info{
-        width: 600px;
-        max-width: 600px;
-    }
-    .big_card .Top_info img {
-        width: 35%;
-        top: -31px;
-        right: -8px;
-    }
-    .big_card .Top_info .hashtag {
-        top: 102px;
-        right: 227px;
-        font-size: 5px;
-        color: #000000;
-    }
-    .big_card .Top_info .hashtag::before {
-        display: none;
-    }
-    .big_card .Top_info .hashtag::after {
-        display: none;
-    }
-    .big_card .Top_info .group_name {
-        top: 22px;
-        left: 42px;
-        font-size: 2.5em;
-    }
-} */
-
-/* @media screen and (min-width: 1000px) and (max-width: 1200px){
-    .info {
-        width: auto;
-    }
-    .big_card .Top_info img {
-        top: -80px;
-        right: -120px;
-    }
-    .big_card .Top_info .hashtag {
-        top: -50px;
-        right: 200px;
-    }
-    .big_card .Top_info .hashtag::before {
-        left: -215px;
-    }
-    .big_card .Top_info .hashtag::after {
-        left: -174px;
-        width: 525px;
-    }
-    .big_card .Top_info .group_name {
-        left: 100px;
-    }
-} */
