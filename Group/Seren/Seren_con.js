@@ -1,3 +1,18 @@
+window.addEventListener('load', function () {
+    let counter = 0;
+    setInterval(() => {
+        if (counter == 2) {
+            clearInterval();
+            document.getElementById("loading_ing").style.opacity = "0";
+            document.getElementById("loading_ing").style.zIndex = "-10000";
+            document.getElementById("scroll").style.overflow = "scroll";
+        }
+        else {
+            counter += 1;
+        }
+    }, 1000)
+})
+
 let bg_navbar = document.getElementById('top_bar');
 let a_top = document.getElementById('to_top');
 
