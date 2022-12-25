@@ -478,7 +478,7 @@ section{
 .animate{
     width: 100%;
     height: 100vh;
-    background-image: url(home.svg);
+    background-image: url(https://raw.githubusercontent.com/aoao000/SAILING/2c78f82110ebb3f304a756c84c5bc33a65833af7/home.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px;
