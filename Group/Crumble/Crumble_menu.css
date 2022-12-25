@@ -464,8 +464,10 @@ body {
 }
 /* 各組專題資訊 */
 .info_content{
+    width: 80%;
     position: absolute;
     top:100%;
+    left: 8.5%;
     background-color:#112D3459;
     border-radius: 20px;
     margin: 20px;
@@ -627,7 +629,7 @@ iframe{
 
 .s112{
     position: absolute;
-    bottom: -180px;
+    bottom: -150px;
     right: 20px;
     font-weight: 200;
     letter-spacing: 10px;
